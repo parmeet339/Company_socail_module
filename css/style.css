@@ -27,7 +27,7 @@
 .logo{
 	background-image: url("../img/bluebg.png");
 	width: 125px;
-
+	padding-top: 3px; 
 }
 
 .logo img{
@@ -40,6 +40,83 @@
 	background-image: url("../img/bluebg.png");
 	position: absolute;
 	top: 13px;
-	margin-left: 145px;
+	margin-left: 135px;
 }
 
+#search input[type="text"]{
+	background: url("../img/search-iconB.png") no-repeat 8px 3px #267bb6;
+	outline: none;
+	border: 0 none;
+	font: bold 12px Georgia, Helvetica;
+	width: 350px;
+	padding: 6px 15px 6px 35px ;
+	text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+	-moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset; 
+	-webkit-transition: all 0.7s ease 0px;
+	-moz-transition: all 0.7s ease 0px;
+	-o-transition: all 0.7s ease 0px;
+	transition: all 0.7s ease 0px;
+}
+#search input[type="text"]:focus{
+	background: url("../img/search-iconB.png") no-repeat 8px 3px #fcfcfc;
+	color: #6a6f75;
+	width: 350px;
+	-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.9) inset;
+	-moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.9) inset;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.9) inset;
+	text-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 1280px) { 
+#menu {
+	background-image: url("../img/bluebg.png");
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	height: 37px;
+	padding-top: 17px;
+	margin-right: 4%;
+
+}
+}
+@media screen and (min-width: 1280px) { 
+#menu {
+	background-image: url("../img/bluebg.png");
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	height: 37px;
+	padding-top: 17px;
+	margin-right: 6%;
+}
+}
+@media screen and (min-width: 1920px) { 
+#menu {
+	background-image: url("../img/bluebg.png");
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	height: 37px;
+	padding-top: 17px;
+	margin-right: 15%;
+}
+}
+#menu a { 
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 14px;
+	background-image: url("../img/bluebg.png");
+	background-repeat: no-repeat;
+	padding-top: 19px;
+	padding-bottom: 22px;
+	padding-left: 10px;
+	padding-right: 10px;
+
+}
+
+#menu a:hover{
+	background-image: url("../img/bluebg2.png");
+
+}
